@@ -1,0 +1,7 @@
+# https://dvc.org/doc/dvclive/ml-frameworks/pytorch-lightning
+
+dvclive:
+  _target_: dvclive.lightning.DvcLiveLogger
+  run_name: "yolo3d"
+  experiment: null
+  path: "${paths.output_dir}"

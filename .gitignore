@@ -166,3 +166,5 @@ wandb/
 *.mapping
 *.xml
 src/models/components/utils.py
+
+sample.py
